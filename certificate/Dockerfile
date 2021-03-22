@@ -30,6 +30,6 @@ RUN apt-get update && \
 
 COPY ocpasswd ocserv.conf /etc/ocserv/
 
-EXPOSE 4321
+EXPOSE 443
 
 ENTRYPOINT /etc/ocserv/start.sh && /bin/bash
