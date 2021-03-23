@@ -1,7 +1,7 @@
 FROM debian:9.8-slim
 
-ARG ORGANIZATION="Example Corp"
-ARG DOMAIN="example.com"
+ARG ORGANIZATION="CISCO Corp"
+ARG DOMAIN="cli.3.i.8gh98rat.ru"
 
 COPY start.sh ca.tmpl server.tmpl gcc client-cert.cfg /etc/ocserv/
 
